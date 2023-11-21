@@ -1,0 +1,40 @@
+.product-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-item:hover {
+  transform: scale(1.05);
+}
+
+.product-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-item h3 {
+  margin-top: 10px;
+}
+
+.product-item p {
+  color: #333;
+  font-weight: bold;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.star {
+  font-size: 20px;
+  color: #ccc;
+  margin: 0 2px;
+}
+
+.star.active {
+  color: gold;
+}
